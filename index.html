@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda Telefônica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Agenda Telefônica</h1>
+
+    <div id="contatos-list">
+    </div>
+
+    <button id="add-contato-btn">Adicionar Contato</button>
+
+    <div id="contato-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Adicionar/Editar Contato</h2>
+            <form id="contato-form">
+                <input type="hidden" id="contato-id">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" required>
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" required>
+                <button type="submit" id="salvar-contato-btn">Salvar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
