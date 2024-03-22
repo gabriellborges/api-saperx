@@ -1,4 +1,6 @@
-Estou usando o servidor bultin do php, php -S localhost:3000
+Recomendo usar o servidor bultin do php, php -S localhost:3000
+
+Instalar o PHPUnit via composer require --dev phpunit/phpunit
 
 Para os testes utilizar  vendor/bin/phpunit agendaTestes.php
 
